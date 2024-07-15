@@ -20,7 +20,7 @@ body:
       description: Hydration token ID
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: icon
     attributes:
       label: Icon
