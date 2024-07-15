@@ -1,18 +1,16 @@
 name: Add new token
-description: Add token to Hydration apps
+description: Add token metadata to hydration apps
 title: "Add "
 labels: ["add-token"]
 projects: []
+assignees:
+  - jak-pan
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for submitting new token request.
   - type: input
     id: ticker
     attributes:
       label: Ticker
-      description: Add token Ticker
+      description: Add token ticker
     validations:
       required: true
   - type: input
@@ -30,3 +28,7 @@ body:
       placeholder: click here then drag and drop icon.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting new token request.
