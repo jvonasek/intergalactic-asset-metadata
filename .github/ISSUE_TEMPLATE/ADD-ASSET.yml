@@ -20,12 +20,12 @@ body:
       description: Hydration token ID
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: icon
     attributes:
       label: Icon
       description: Add token icon in svg format < 50Kb
-      placeholder: click here then drag and drop icon.
+      placeholder: Click here then drag and drop icon.
     validations:
       required: true
   - type: markdown
